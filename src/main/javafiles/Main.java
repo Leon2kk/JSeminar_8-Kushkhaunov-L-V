@@ -1,12 +1,15 @@
 package javafiles;
 
-import java.util.ArrayList;
-import java.util.List;
+import javafiles.controller.Controller;
+
 
 public class Main {
     
     public static void main(String[] args){
         
+        Controller controller = new Controller();
+
+        controller.createUser("Иван", "Иванов", "Иванович");
    
     }
 }
